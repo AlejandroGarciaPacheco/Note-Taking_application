@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title></title>
+    <link rel='stylesheet' href='css/style.css'>
+  </head>
+  <body>
+    <header>
+      CloudPad
+    </header>
+    <main>
+      <div class="headers">
+        <div id="list-head">
+          <b>Notes</b> <i>(click to edit/delete)</i>
+        </div>
+        <div id="note-head">
+          <b>Notepad</b>
+          <span id="edit-mode" class="no-display">
+            <i> (edit mode) </i>
+          </span>
+        </div>
+      </div>
+      <noteList>
+        <div id='listed'>
+        </div>
+      </noteList>
+      <notepad>
+        <div id="note-title">
+          <input id="title-field" type="text" placeholder="Title">
+        </div>
+        <div id="note-body">
+          <textarea id="body-field"></textarea>
+        </div>
+      </notepad>
+    </main>
+    <footer>
+      <button id="btn-save">Save</button>
+      <button id="btn-delete">Delete / Clear </button>
+    </footer>
+  </body>
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+  <script type='text/javascript' src='js/script.js'></script>
+</html>
